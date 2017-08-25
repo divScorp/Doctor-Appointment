@@ -1,0 +1,189 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Vidhikara/Desktop/google code jam/A22.cpp",
+		"/H/Project/Hospital/Backend/connection.php",
+		"/C/Users/Vidhikara/Desktop/google code jam/practice2_ind.cpp",
+		"/C/Users/Vidhikara/Desktop/google code jam/fractiles.cpp",
+		"/C/Users/Vidhikara/Desktop/resume.html",
+		"/C/Users/Vidhikara/AppData/Local/Temp/Rar$DIa0.933/t1_c.cpp",
+		"/C/Users/Vidhikara/Desktop/google code jam/practice0.cpp",
+		"/C/Users/Vidhikara/AppData/Local/Temp/Rar$DIa0.808/t1_c.cpp",
+		"/C/Users/Vidhikara/Downloads/LAPIN (1).cpp",
+		"/C/Users/Vidhikara/AppData/Local/Temp/Rar$DIa0.133/t1_c.cpp",
+		"/C/Users/Vidhikara/Desktop/google code jam/practice_ind.cpp",
+		"/C/Users/Vidhikara/Desktop/google code jam/c_ind.cpp",
+		"/C/Users/Vidhikara/Downloads/LAPIN.cpp",
+		"/C/Users/Vidhikara/AppData/Local/Temp/Rar$DIa0.481/A.cpp",
+		"/C/Users/Vidhikara/AppData/Local/Temp/Rar$DIa0.469/A.cpp",
+		"/E/Dev Zone/C++ Zone/Argv.c",
+		"/C/Users/Vidhikara/Desktop/google code jam/B.cc",
+		"/E/Dev Zone/Google code jam/Google code jam.cbp",
+		"/C/Users/Vidhikara/Desktop/google code jam/C_ind.cc",
+		"/C/Users/Vidhikara/Desktop/google code jam/C.cc",
+		"/C/Users/Vidhikara/Desktop/New folder/A.cpp",
+		"/C/Users/Vidhikara/Desktop/New folder/solve.cpp",
+		"/C/Users/Vidhikara/Desktop/New folder/A22.cpp",
+		"/E/Dev Zone/C++ Zone/hello.cpp",
+		"/E/Documents/Project/Hospital/Backend/Admin.php"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Admin.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

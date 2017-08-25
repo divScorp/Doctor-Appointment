@@ -1,0 +1,285 @@
+body{
+	background-color:#232526;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	padding:0px;
+}
+	
+#apDiv1 {
+	position: absolute;
+	width: 1093px;
+	height: 699px;
+	z-index: 1;
+	left: 158px;
+	top: 2px;
+	background-color: #FFFFFF;
+	background: #648880;
+	background: linear-gradient(to top, #f6f1d3 20%, #648880 50%, #293f50 75%);
+}
+#apDiv2 {
+	position: absolute;
+	width: 1094px;
+	height: 122px;
+	z-index: 1;
+	left: 0px;
+	top: -1px;
+	color: #D6D6D6;
+	background-color: #CCCCCC;
+	background-image: url(18691897.jpg);
+}
+#apDiv3 {position: absolute;
+	width: 785px;
+	height: 74px;
+	z-index: 1;
+	left: 157px;
+	top: 27px;
+	font-size: 45px;
+	font-family: "Comic Sans MS", cursive;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 8px -7px 8px #06F;
+}
+#apDiv4 {position: absolute;
+	width: 151px;
+	height: 120px;
+	z-index: 2;
+	/*border-top-left-radius:20px;*/
+	border-top-right-radius:70px;
+	border-bottom-right-radius:70px;
+	border-bottom-left-radius:70px;
+	border-top-left-radius:70px;
+	background-image: url(logo_hospital_01_by_davicinpuntocom-d31hfy2.jpg);
+}
+#apDiv5 {
+	position: absolute;
+	width: 1093px;
+	height: 48px;
+	z-index: 2;
+	left: -1px;
+	top: 120px;
+	background-image: url(18691897.jpg);
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid #36b0b6;
+}
+#apDiv5 div:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+#apDiv5 div:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+a:link
+{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+}
+#apDiv6 {
+	position: absolute;
+	width: 165px;
+	height: 78px;
+	z-index: 3;
+	left: 183px;
+	top: 160px;
+}
+#apDiv6 div:hover {
+	visiblity: hidden;
+}
+#apDiv6 div{
+	  outline: none;
+  display: block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid #080808;
+  color: #ffffff;
+  padding: 12px 20px;
+}
+#apDiv7 {
+	position: absolute;
+	width: 172px;
+	height: 115px;
+	z-index: 3;
+	left: 175px;
+	top: 166px;
+	visibility:hidden;
+}
+
+#apDiv8 {
+	position: absolute;
+	width: 166px;
+	height: 80px;
+	z-index: 3;
+	left: 183px;
+	top: 168px;
+	border: 2px solid #133e40;
+	border-radius: 5px;
+	background-color: #1e2a36;
+	background-image:url(1869189.jpg);
+	visibility:hidden;
+}
+#apDiv8 div:hover a {
+	border: 1px solid #36b0b6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  font-size:18px;
+ /* background: #1e6468;*/
+  border: 2px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+#apDiv9 {
+	position: absolute;
+	width: 172px;
+	height: 80px;
+	z-index: 3;
+	left: 356px;
+	top: 168px;
+	border: 2px solid #133e40;
+	border-radius: 5px;
+	background-image: url(1869189%20-%20Copy.jpg);
+	visibility:hidden;
+}
+#apDiv9 div:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  font-size:18px;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+#apDiv10 {
+	position: absolute;
+	width: 280x;
+	height: 46px;
+	z-index: 3;
+	left: 535px;
+	top: 169px;
+	border: 2px solid #133e40;
+	border-radius: 5px;
+	background-image:url(1869189.jpg);
+	visibility:hidden;
+}
+#apDiv10 div:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  font-size:18px;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+
+#apDiv11 {
+	position: absolute;
+	width: 200px;
+	height: 147px;
+	z-index: 4;
+	left: 722px;
+	top: 168px;
+	border: 2px solid #133e40;
+	border-radius: 5px;
+	background-image: url(1869189%20-%20Copy.jpg);
+	visibility:hidden;
+}
+#apDiv11 div:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  font-size:18px;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+#apDiv8, #apDiv9, #apDiv10, #apDiv11 a:link
+{
+	font-family:"Comic Sans MS", cursive;
+	font-size:20;
+}
+#apDiv12 {
+	position: absolute;
+	width: 108px;
+	height: 29px;
+	z-index: 5;
+	left: 986px;
+	top: -1px;
+	text-decoration:blink;
+}
+#apDiv12 div:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  font-size:18px;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+
+#apDiv13 {
+	position: absolute;
+	width: 154px;
+	height: 85px;
+	z-index: 2;
+	left: 1063px;
+	top: 167px;
+	border: 2px solid #133e40;
+	border-radius: 5px;
+	background-image:url(1869189.jpg);
+	visibility:hidden;
+}
+#apDiv13 div:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  font-size:18px;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
