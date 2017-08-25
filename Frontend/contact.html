@@ -1,0 +1,498 @@
+<html>
+<head>
+<title>Hospital Management System</title>
+<style>
+body{
+	background-color:#232526;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	padding:0px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 78px;
+	height: 93px;
+	z-index: 1;
+	left: 86px;
+	top: 21px;
+}
+#apDiv1 {
+	position: absolute;
+	width: 1070px;
+	height: 1197px;
+	z-index: 1;
+	left: 142px;
+	top: 9px;
+	color: #CCC;
+	background: #648880;
+	background: linear-gradient(to top, #f6f1d3 20%, #648880 50%, #293f50 75%);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #36b0b6;
+	opacity:0.25;
+	pointer-events:none;
+}
+#apDiv6 div.ap6 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+#apDiv2 {
+	position: absolute;
+	width: 1071px;
+	height: 119px;
+	z-index: 1;
+	left: 0px;
+	top: -1px;
+	color: #D6D6D6;
+	background-color: #CCCCCC;
+	background-image: url(img/18691897.jpg);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #36b0b6;
+	;
+}
+#apDiv4 {
+	position: absolute;
+	width: 151px;
+	height: 120px;
+	z-index: 2;
+	/*border-top-left-radius:20px;*/
+	border-top-right-radius:70px;
+	border-bottom-right-radius:70px;
+	border-top-left-radius:70px;
+	border-bottom-left-radius:70px;
+	background-image: url(img/logo_hospital_01_by_davicinpuntocom-d31hfy2.jpg);
+}
+#apDiv5 {
+	position: absolute;
+	width: 785px;
+	height: 74px;
+	z-index: 1;
+	left: 157px;
+	top: 27px;
+	font-size: 45px;
+	font-family: "Comic Sans MS", cursive;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 8px -7px 8px #06F;
+}
+#apDiv6 {
+	position: absolute;
+	width: 1071px;
+	height: 53px;
+	z-index: 3;
+	top: 118px;
+	background-image: url(img/18691897.jpg);
+	font-weight: bold;
+	color: #FFF;
+	left: 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #36b0b6;
+}
+#apDiv6 div:hover a {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	/* [disabled]border-radius: 5px; */
+	display: block;
+	border: 1px solid #133e40;
+	-moz-box-shadow: inset 0 5px 10px #133e40;
+	-webkit-box-shadow: inset 0 5px 10px #133e40;
+	box-shadow: inset 0 5px 10px #133e40;
+}
+#apDiv6 div:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+a:link
+{
+	text-decoration:none;
+	color:#ffffff;
+	font-weight:bold;
+	font-family:"Comic Sans MS", cursive;
+	font-size:21px;
+}
+#apDiv7 {
+	position: absolute;
+	width: 426px;
+	height: 239px;
+	z-index: 4;
+	left: 582px;
+	top: 245px;
+	background-image: url(Image/4.jpg);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	animation-name: anime1;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+@keyframes anime1
+	{   0%{opacity:1;}
+		16%{opacity:1;}
+		17%{opacity:0;}
+		32%{opacity:0;}
+		33%{opacity:0;}
+		48%{opacity:0;}
+		49%{opacity:0;}
+		64%{opacity:0;}
+		65%{opacity:0;}
+		80%{opacity:0;}
+		81%{opacity:0;}
+		100%{opacity:0;}
+	}
+	
+#apDiv8 {
+	position: absolute;
+	width: 426px;
+	height: 239px;
+	z-index: 5;
+	left: 582px;
+	top: 245px;
+	background-image: url(Image/6.jpg);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	animation-name: anime2;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+@keyframes anime2
+	{   0%{opacity:0;}
+		16%{opacity:0;}
+		17%{opacity:1;}
+		32%{opacity:1;}
+		33%{opacity:0;}
+		48%{opacity:0;}
+		49%{opacity:0;}
+		64%{opacity:0;}
+		65%{opacity:0;}
+		80%{opacity:0;}
+		81%{opacity:0;}
+		100%{opacity:0;}
+	}
+#apDiv9 {
+	position: absolute;
+	width: 426px;
+	height: 239px;
+	z-index: 1;
+	background-image: url(Image/5.jpg);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	animation-name: anime3;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	left: 582px;
+	top: 245px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+@keyframes anime3
+	{   0%{opacity:0;}
+		16%{opacity:0;}
+		17%{opacity:0;}
+		32%{opacity:0;}
+		33%{opacity:1;}
+		48%{opacity:1;}
+		49%{opacity:0;}
+		64%{opacity:0;}
+		65%{opacity:0;}
+		80%{opacity:0;}
+		81%{opacity:0;}
+		100%{opacity:0;}
+	}
+#apDiv10 {
+	position: absolute;
+	width: 426px;
+	height: 239px;
+	z-index: 1;
+	background-image: url(Image/1.jpg);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	animation-name: anime4;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	left: 582px;
+	top: 245px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+@keyframes anime4
+	{   0%{opacity:0;}
+		16%{opacity:0;}
+		17%{opacity:0;}
+		32%{opacity:0;}
+		33%{opacity:0;}
+		48%{opacity:0;}
+		49%{opacity:1;}
+		64%{opacity:1;}
+		65%{opacity:0;}
+		80%{opacity:0;}
+		81%{opacity:0;}
+		100%{opacity:0;}
+	}
+#apDiv11 {
+	position: absolute;
+	width: 426px;
+	height: 239px;
+	z-index: 1;
+	background-image: url(Image/2.jpg);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	animation-name: anime5;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	left: 582px;
+	top: 245px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+@keyframes anime5
+	{   0%{opacity:0;}
+		16%{opacity:0;}
+		17%{opacity:0;}
+		32%{opacity:0;}
+		33%{opacity:0;}
+		48%{opacity:0;}
+		49%{opacity:0;}
+		64%{opacity:0;}
+		65%{opacity:1;}
+		80%{opacity:1;}
+		81%{opacity:0;}
+		100%{opacity:0;}
+	}
+#apDiv12 {
+	position: absolute;
+	width: 426px;
+	height: 239px;
+	z-index: 1;
+	background-image: url(Image/3.jpg);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	animation-name: anime6;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	left: 582px;
+	top: 245px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+@keyframes anime6
+	{   0%{opacity:0;}
+		16%{opacity:0;}
+		17%{opacity:0;}
+		32%{opacity:0;}
+		33%{opacity:0;}
+		48%{opacity:0;}
+		49%{opacity:0;}
+		64%{opacity:0;}
+		65%{opacity:0;}
+		80%{opacity:0;}
+		81%{opacity:1;}
+		100%{opacity:1;}
+	}
+#apDiv13 {
+	position: absolute;
+	width: 452px;
+	height: 780px;
+	z-index: 6;
+	left: 24px;
+	top: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #000;
+	background: #466368;
+	background: radial-gradient(#293f50, #648880);
+	border: 3px solid #033;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+#apDiv14 {
+	position: absolute;
+	width: 1069px;
+	height: 133px;
+	z-index: 7;
+	left: 0px;
+	top: 1063px;
+	background-color: #FFFFFF;
+}
+#apDiv15 {
+	position: absolute;
+	width: 207px;
+	height: 54px;
+	z-index: 1;
+	left: -25px;
+	top: -66px;
+	font-size: 36px;
+	color: #000;
+}
+#apDiv16 {
+	position: absolute;
+	width: 452px;
+	height: 67px;
+	z-index: 8;
+	left: 24px;
+	top: 247px;
+	font-size: 36px;
+	font-weight: bold;
+	color: #000;
+	background-color: #466368;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#apDiv1 #apDiv13 div p {
+	text-align: justify;
+}
+#apDiv1 #apDiv13 div {
+	color: #CFC;
+}
+#apDiv1 #apDiv16 div {
+	color: #0CF;
+	font-family: "Comic Sans MS", cursive;
+}
+#apDiv17 {
+	position: absolute;
+	width: 427px;
+	height: 663px;
+	z-index: 1;
+	left: 13px;
+	top: 13px;
+}
+#apDiv1 #apDiv13 #apDiv17 div p {
+	font-family: 'Comic Sans MS', cursive;
+}
+#apDiv18 {
+	position: absolute;
+	width: 666px;
+	height: 524px;
+	z-index: 2;
+	left: 367px;
+	top: 207px;
+	background:#FFF;
+	background:linear-gradient(#FFF,#999);
+	padding-left: 17px;
+	padding-right:10px;
+	border-radius:15px;
+	transition:all 0.7s ease-in-out;
+}
+#apDiv18 {
+	font-weight: bold;
+	
+}
+#apDiv19 {
+	color: #Fff;
+	position: absolute;
+	width: 23px;
+	height: 26px;
+	line-height:25px;
+	z-index: 3;
+	left: 680px;
+	font-weight:bold;
+	top:-17px;
+	right:-19px;
+	border-radius: 15px;
+	padding-left: 7px;
+	padding-bottom: 5px;
+	background:#606061;
+	text-decoration:none;
+	box-shadow:1px 1px 3px #000000;
+}
+</style>
+</head>
+<body vlink="#FFFFFF">
+<div id="apDiv18">
+<a href="index.html">
+<div id="apDiv19"><b>X</b></div></a>
+<p><div align="center"><h1>Contact Us</h1><hr color="#990000"></div></p>
+<p>
+<h2 style="color:#900; text-decoration:underline;">Contact Us For Appointments and Information:</h2>
+<h4>Hospital Front Desk :&nbsp;887 624 1398</h4>
+<h4>Medical Doctor : &nbsp;887 624 1398 (Doctor Hotline for urgent queries)</h4>
+  </p><br/><h2 style="text-decoration:underline; color:#900;">Hospital Location:</h2>
+  10/2 Ground Floor, GNB Road<br/>
+  Guwahati 781 011, Kamrup(M) India<br/>
+  <p>The hospital is located in the center of the Guwahati city on GNB road near the Maligaon </p>
+  Landmark :Located very close to LCB College Gate. <br/>
+  For accurate directions call the hospital directly at +91 900 849 2277 or (80) 4117 9069. <br/>
+  Note: the google maps directions may not always be accurate.</p>
+</div>
+<div id="apDiv1">
+  <div id="apDiv2">
+    <div id="apDiv5">
+      <div align="left">Hospital Management System</div>
+    </div>
+  </div>
+  <div id="apDiv4"></div>
+  <div id="apDiv6">
+    <table width="1069" height="54" border="0">
+      <tr>
+        <td width="145"><div align="center" id="ap6"><a href="index.html">Home</a></div></td>
+        <td width="234"><div align="center"><a href="patient.php">Patient & Visitor's</a></div></td>
+          <td width="183"><div align="center"><a href="doctor.php">Doctors</a></div></td>
+        <td width="188"><div align="center"><a href="feedback.php">Feedback</a></div></td>
+        <td width="178"><div align="center"><a href="contact.html">Contact us</a></div></td>
+      </tr>
+    </table>
+  </div>
+  <div id="apDiv7"></div>
+  <div id="apDiv8"></div>
+  <div id="apDiv9"></div>
+  <div id="apDiv10"></div>
+  <div id="apDiv11"></div>
+  <div id="apDiv12"></div>
+  <div id="apDiv13">
+    <div id="apDiv17">
+      <div align="center"><p><div align="center" style="color:#0CC; font-weight:bold; font-size:36px;">About us</div></p><hr>
+        <p>&nbsp;&nbsp;&nbsp;Hospital was established in 2014 as an effort to&nbsp;improve medical   communications to the healthcare, medical community and patients.   Hospital genuinely understands the traumas faced in times of crisis.   We know your difficulties in coping with treatment as well as the   emotional and financial strain that often accompany a medical situation.   Long wait times and untimely response is a nightmare for patients. Our   compassion places patients and their families first.</p>
+        <p>&nbsp;&nbsp;&nbsp;By maintaining efficient, accurate and timely service, we help   medical professionals to care for their patients. We serve patients and   patients&rsquo; families with our unique brand of assistance and our   commitment to compassionate services.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Hospital utilizes the latest and most innovative technology in the   market. While we are fully committed to technological progress.  Hospital has and always will be a friendly, compassionate voice on   the other line. Hospital aims to exceed the client&rsquo;s expectations   while upholding the highest standards of compassionate and ethical   communications management available in healthcare services.</p>
+      </div>
+    </div>
+  </div>
+  <div id="apDiv14">
+  <div id="copyright">
+  <div class="wrapper">
+    <p align="center" style="color:#000;">Copyright &copy; 2015 - All Rights Reserved - <a href="#" style="color:#000;">AD Hospital</a></p>
+    <p align="center" style="color:#000;">Powered By AD Hospital</p>
+     <p align="center" style="color:#000;">Developed by - Divyanshu Sharma &amp; Adnan Arif - B.Sc (6th Semester)</p>
+    <br class="clear" />
+  </div>
+</div>
+  </div>
+</div>
+</body>
+</html>
